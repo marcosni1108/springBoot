@@ -1,0 +1,4 @@
+br/com/spring/model/Cliente.class
+br/com/spring/DataConfig.class
+br/com/spring/controller/ClienteController.class
+br/com/spring/ProjectApplication.class

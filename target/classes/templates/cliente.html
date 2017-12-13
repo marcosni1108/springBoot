@@ -1,0 +1,51 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Cadastro de Cliente</title>
+</head>
+<body>
+
+	<h2>Formulário de Cadastro de Cliente</h2>
+	<form method="POST" action="/addCliente">
+		<table>
+			<tr>
+				<td>Nome</td>
+				<td><input type="text" value="" name="nome" /></td>
+			</tr>
+			<tr>
+				<td>CPF:</td>
+				<td><input type="text" value="" name="cpf"/></td>
+			</tr>
+			<tr>
+				<td>RG:</td>
+				<td><input type="text" value="" name="rg"/></td>
+			</tr>
+			<tr>
+				<td>Endereço:</td>
+				<td><input type="text" value="" name="endereco"/></td>
+			</tr>
+			<tr>
+				<td>Salário:</td>
+				<td><input type="text" value="" name="salario"/></td>
+			</tr>
+			<tr>
+				<td>Telefone:</td>
+				<td><input type="tel" value="" name="telefone"/></td>
+			</tr>
+			<tr>
+				<td>Profissão:</td>
+				<td><input type="text" value="" name="profissao"/></td>
+			</tr>
+			<tr>
+				<td>Descrição</td>
+				<td><input type="text" value="" name="descricao"/></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Submit" /></td>
+			</tr>
+		</table>
+	</form>
+	<a href="/cliente/listaClientes">Lista</a>
+
+</body>
+</html>
